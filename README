@@ -1,0 +1,44 @@
+Name: Alex Myers
+
+Course: CPSC 4160
+
+Clemson Email Address: amyers4@clemson.edu
+
+Project no: 6
+
+Project due date: Dec. 12, 2018
+
+
+I'm excited for my final project- words I wrote before my entire program fell
+apart.
+
+Before my files got overwritten, my game was two parts. You'd have to make
+it through the goombas by jumping on them or dodging them, and then you'd
+face the King Bob-omb. And it was really super cool because I had yoshi 
+sticking his tongue out, visibly catching the mini bob-ombs, and then holding
+them in his mouth with like a whole other set of sprites where his cheeks
+were red and puffed out. And then I also had him throwing them at the King
+Bob-omb who had a health bar too(getting that extra sex appeal)! It was like 
+a showdown, and it looked so good, and then I ruined it. 
+
+And then I tried to rebuild what I had lost, and failed because I'd only slept
+about 3 hours during the 2 days prior to the massive meltdown, so I couldn't
+code very well. As I write this, it's been about 3 days on 3 hours of sleep, and
+I think I ended up with something passable, but definitely not what I wanted.
+I tried to get the menu working, but it would segfault in my engine.cpp loop
+that allowed bounce on the first if statement to check for the right arrow
+key, so I had to give that up too.
+
+I really want to finish my game, and I've had a great time this semester and
+learned a lot, which is what really counts.
+
+I just wish I could show you my original game, because it was awesome.
+
+
+Where I got my sprites: deviantart user banjo2015
+								kooky kirby
+								glukom50
+								allfreedownload.com
+
+
+

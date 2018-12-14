@@ -1,0 +1,242 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>Alex Myers' 2D Mario64</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>300</maxFrames>
+<username>amyers4</username>
+
+<menu>
+	<loc x="5" y="5"/>
+	<width>845</width>
+	<height>470</height>
+	<backColor r="12" g="185" b="160" a="200"/>
+	<color r="235" g="100" b="100" a="255"/>
+	<spaces>70</spaces>
+	<noOfOptions>3</noOfOptions>
+	<option0> Set No. Of Goombas</option0>
+	<option1> Play Game </option1>
+	<option2> Play with God Mode </option2>
+	<optionLoc x="400" y="100"/>
+	<loc x="0" y="0"/>
+	<msg x="30" y="60"/>
+</menu>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+  <loc x="30" y="30"/>
+</view>
+
+<world>
+  <width>3840</width>
+  <height>1080</height>
+</world>
+
+<clouds>
+  <file>assets/clouds.png</file>
+  <factor>3</factor>
+  <transparency>false</transparency>
+</clouds>
+<hills>
+  <file>assets/hills2.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</hills>
+<ground>
+  <file>assets/grounddd.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</ground>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>255</alpha>
+</font>
+
+<hud>
+	<r>255</r>
+	<b>55</b>
+	<g>55</g>
+	<a>255</a>
+	<x>0</x>
+	<y>0</y>
+	<w>250</w>
+	<h>300</h>
+	<font>
+		<size>20</size>
+	</font>
+</hud>
+
+<Yoshi>
+  <file>assets/yoshi64.png</file>
+  <bImages>
+  		<file>assets/yoshiWithBomb.png</file>
+		<frames>20</frames>
+  		<transparency>false</transparency>
+  </bImages>
+  <rightJump>
+  		<file>assets/yoshiJumpLeft.png</file>
+		<frames>6</frames>
+  		<transparency>false</transparency>
+  </rightJump>
+  <bRightJump>
+  		<file>assets/yoshiJumpLeftBomb.png</file>
+		<frames>6</frames>
+  		<transparency>false</transparency>
+  </bRightJump>
+  <leftJump>
+  		<file>assets/yoshiJumpActuallyLeft.png</file>
+		<frames>6</frames>
+  		<transparency>false</transparency>
+  </leftJump>
+  <bLeftJump>
+  		<file>assets/yoshiJumpActuallyLeftBomb.png</file>
+		<frames>6</frames>
+  		<transparency>false</transparency>
+  </bLeftJump>
+  <still>
+  		<file>assets/yoshiStill.png</file>
+		<frames>2</frames>
+  		<transparency>false</transparency>
+  </still>
+  <bStill>
+  		<file>assets/yoshiStillBomb.png</file>
+		<frames>2</frames>
+  		<transparency>false</transparency>
+  </bStill>
+  <rightTongue>
+  		<file>assets/yoshiTongueRight.png</file>
+		<frames>8</frames>
+  		<transparency>false</transparency>
+  </rightTongue>
+  <leftTongue>
+  		<file>assets/yoshiTongueLeft.png</file>
+		<frames>8</frames>
+  		<transparency>false</transparency>
+  </leftTongue>
+  <height>70</height>
+  <startLoc x="20" y="630"/>
+  <mass>81</mass>
+  <frames>20</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>70</speedX>
+  <speedY>100</speedY>
+  <transparency>false</transparency>
+	<chunk>
+		<size>16</size>
+		<distance>20</distance>
+	</chunk>
+</Yoshi>
+<bomb>
+	<file>assets/bombSs.png</file>
+	<frames>12</frames>
+	<frameInterval>100</frameInterval>
+	<transparency>false</transparency>
+	<mass>20</mass>
+	<speedX>-10</speedX>
+	<speedY>0</speedY>
+	<height>49</height>
+	<startLoc x="730" y="550"/>
+	<chunk>
+		<size>16</size>
+		<distance>40</distance>
+	</chunk>
+</bomb>
+<King>
+	<file>assets/kingB.png</file>
+	<frames>3</frames>
+	<frameInterval>100</frameInterval>
+	<transparency>false</transparency>
+	<height>210</height>
+	<speedX>0</speedX>
+	<speedY>0</speedY>
+	<startLoc x="2000" y="500"/>
+</King>
+<health>
+	<file>assets/life.png</file>
+	<transparency>false</transparency>
+	<frames>8</frames>
+</health>
+<Goomba>
+  <file>assets/goomba.png</file>
+  <startLoc x="50" y="650"/>
+  <frames>8</frames>
+  <height>51</height>
+  <frameInterval>50</frameInterval>
+  <speedX>70</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</Goomba>
+<deadGoomba>
+  <file>assets/goombaDead.png</file>
+  <startLoc x="950" y="650"/>
+  <frames>3</frames>
+  <frameInterval>20</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <height>55</height>
+  <transparency>false</transparency>
+</deadGoomba>
+
+<Koopa>
+	<file>assets/koopa.png</file>
+	<startLoc x="1500" y="300"/>
+	<frames>18</frames>
+	<frameInterval>40</frameInterval>
+	<speedX>290</speedX>
+	<speedY>60</speedY>
+	<transparency>false</transparency>
+</Koopa>
+<Koopa2>
+	<file>assets/koopa.png</file>
+	<startLoc x="3500" y="600"/>
+	<frames>18</frames>
+	<frameInterval>40</frameInterval>
+	<speedX>-260</speedX>
+	<speedY>-75</speedY>
+	<transparency>false</transparency>
+</Koopa2>
+
+<block>
+  <file>assets/block.png</file>
+  <startLoc x="3000" y="500"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</block>
+<block2>
+  <file>assets/block2.png</file>
+  <startLoc x="3000" y="500"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</block2>
+
+<InvincibilityStar>
+  <file>assets/invinistar.png</file>
+  <startLoc x="227" y="240"/>
+  <speedX>300</speedX>
+  <speedY>300</speedY>
+  <transparency>false</transparency>
+</InvincibilityStar>
+
+<InvincibilityStar2>
+  <file>assets/invinistar.png</file>
+  <startLoc x="2000" y="300"/>
+  <speedX>350</speedX>
+  <speedY>400</speedY>
+  <transparency>false</transparency>
+</InvincibilityStar2>
+
+
+</GameData>
